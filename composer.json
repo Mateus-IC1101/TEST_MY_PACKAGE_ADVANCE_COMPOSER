@@ -1,0 +1,24 @@
+{
+    "name": "mateus/test_package_advance_composer",
+    "description": "test using package in git | repositories | link to advance best practice",
+    "autoload": {
+        "psr-4": {
+            "Mateus\\TestPackageAdvanceComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateus-IC1101",
+            "email": "mateus.dolglas6@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Mateus-IC1101/safe-veihicle.git"
+        }
+    ],
+    "require": {
+        "mateus/test_phpunit_php": "dev-master"
+    }
+}
